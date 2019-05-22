@@ -1,0 +1,22 @@
+
+1.在根目录下创建一个文件夹:
+
+mkdir github
+
+2.进入该目录
+cd github
+
+3.在github网站新建一个repository,复制ssh
+
+4.克隆网址
+git clone git@github.com:ApollAMrAIce/chat2.git
+
+5.将要上传的文件放到一个文件夹内,例如将chat_r chat_s 放入chat2文件夹里面,然后进入chat2
+cd chat2
+
+6.将文件添加到仓库
+git add *
+git commit -m 'add chat_r chat_s'
+
+7.
+git push
